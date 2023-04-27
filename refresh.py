@@ -8,7 +8,7 @@ lastRaw=  None
 driver = webdriver.Chrome(executable_path="C:\chromedriver.exe")
 driver.implicitly_wait(0.5)
 
-driver.get("http://167.248.46.73:5000")
+driver.get("http://jacobsanford.ddns.net:5000")
 
 def refreshPage():
     global driver
